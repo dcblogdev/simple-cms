@@ -1,0 +1,83 @@
+/*-------------------------------------------------------+
+| Content Management System 
+| http://www.phphelptutorials.com/
++--------------------------------------------------------+
+| Author: David Carr  Email: dave@daveismyname.com
++--------------------------------------------------------+*/
+
+body {
+	background:#e0e0e0;
+	margin:0 auto 0;
+	padding:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#333333;
+}
+
+
+div.lwidth {
+	width:500px;
+	margin:80px auto 0;
+	padding:0;
+	background:#FFFFFF;
+}
+
+/* default forms */
+form input, form textarea, select {
+	border:1px solid #999999;
+	border-bottom-color:#cccccc;
+	border-right-color:#cccccc;
+	padding:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.0em;
+	margin:2px;
+}
+
+form input.button {
+	background:#0D7ABF none repeat-x scroll bottom left;
+	color:#ffffff;
+	border:1px solid #00F;
+	color:#ffffff;
+	font-size:0.8em;
+	padding:6px 14px;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+label {
+	float:left;
+	margin-right:10px;
+	width:180px;
+	font-weight:bold;	
+	}
+/* content */
+div.page-wrap {
+	padding:20px;
+	clear:both;
+	background-color:#fff;
+}
+
+div.content {
+	float:left;
+	width:100%;
+	padding-right:20px;
+	font-size:90%;
+}
+
+/* footer */
+div.footer {
+	background:none repeat scroll 0 0 #262626;
+	clear:both;
+	color:#FFFFFF;
+	padding:10px;
+	text-align:center;
+}
+
+
+/* MESSAGES */
+.msg-info, .msg-atten, .msg-ok, .msg-error { margin:3px 0; padding:10px 10px 10px 40px; -moz-border-radius:5px; -webkit-border-radius:5px; }
+.msg-info { background:#ADC2F7 url(../images/icons/msg-info.png) 6px center no-repeat; border:1px solid #6D94F7; color:#03C; }
+.msg-atten { background:#FAE673 url(../images/icons/msg-atten.png) 6px center no-repeat; border:1px solid #FEBD63; color:#C60; }
+.msg-ok { background:#AEE893 url(../images/icons/msg-ok.png) 6px center no-repeat; border:1px solid #8EC46C; color:#060; }
+.msg-error { background:#F4B8B5 url(../images/icons/msg-error.png) 6px center no-repeat; border:1px solid #C94042; color:#900; }
+/* END OF MESSAGES */
+	

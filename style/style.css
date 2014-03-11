@@ -1,0 +1,158 @@
+/*-------------------------------------------------------+
+| Content Management System 
+| http://www.phphelptutorials.com/
++--------------------------------------------------------+
+| Author: David Carr  Email: dave@daveismyname.com
++--------------------------------------------------------+*/
+
+body {
+  font-size: 80%;
+  font-family:Arial, Helvetica, sans-serif;
+  margin:0;
+}
+
+#wrapper {
+	margin:auto;
+	width:960px;
+}
+
+/* Header informatiom */
+
+#logo {
+	font-size:20px;
+	height:23px;
+	margin-bottom:10px;
+	margin-top:10px;
+	width:235px;
+}
+
+/* Navi informatiom */
+
+#navigation{
+	background:#000000;
+	height:40px;   
+}
+
+/*** Superfish SKIN ***/
+.menu {
+	float:			left;
+	margin-bottom:	1em;
+	padding:0px;
+}
+.menu a {
+	padding: 		.75em 1em;
+	text-decoration:none;
+	color:#ffffff;
+}
+.menu a { 
+	color:#ffffff;
+}
+.menu li {
+	background:#000000;
+	display:inline;
+}
+
+/* Content informatiom */
+
+#content {
+	width:960px;
+	margin:auto;
+}
+
+/* Footer informatiom */
+
+#footer {
+	clear:both;
+	color:#fff;
+	height:auto;
+	margin:auto;
+	padding:10px;
+	width:960px;
+	background:#000;
+	margin-bottom:10px;
+}
+
+
+/* links ----------------------------------------------------------------------- */
+
+a {
+	 text-decoration:none;
+	 color:#2d67a7;
+	 background-color: inherit;
+}
+
+a:hover {
+	 text-decoration:underline;
+}
+
+
+/* headings -------------------------------------------------------------------- */
+
+
+h1 {
+	  font-size: 1.5em;
+	  line-height: 1em;
+	  padding-bottom:0.2em;
+}
+
+h2 {
+	border-bottom:1px solid #E4E4E4;
+	font-size:20px;
+	margin:0 0 15px;
+	padding:0 0 15px 10px;
+}
+
+h3 {
+	  font-size: 1.3em;
+	  margin: 0 0 0.5em 0;
+	  font-weight:bold;
+}
+
+h4 {
+	 font-size: 1.2em;
+	  line-height: 1.3em;
+	  margin: 0 0 0.5em 0;
+	  font-weight:bold;
+	  margin:0 0 0.6em 0;
+	  color:#CC9933;
+}
+
+h5 { 
+	  font-size: 1em;
+	  line-height: 1.5em;
+	  color:#000;
+}
+
+label {
+	float:left;
+	font-weight:bold;
+	margin-right:10px;
+	width:180px;
+}
+
+.button {
+	background:#0D7ABF none repeat-x scroll bottom left;
+	color:#ffffff;
+	border:1px solid #00F;
+	color:#ffffff;
+	font-size:0.8em;
+	padding:6px 14px;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+	
+/* MESSAGES */
+.hidethis { cursor:pointer; }
+.msg-info, .msg-atten, .msg-ok, .msg-error { margin:3px 0; padding:10px 10px 10px 40px; -moz-border-radius:5px; -webkit-border-radius:5px; }
+.msg-info { background:#ADC2F7 6px center no-repeat; border:1px solid #6D94F7; color:#03C; }
+.msg-atten { background:#FAE673 6px center no-repeat; border:1px solid #FEBD63; color:#C60; }
+.msg-ok { background:#AEE893 6px center no-repeat; border:1px solid #8EC46C; color:#060; }
+.msg-error { background:#F4B8B5 6px center no-repeat; border:1px solid #C94042; color:#900; }
+/* END OF MESSAGES */
+
+/* table */
+table {width:98%; border:1px solid #DDDDDD; font-size:12px; color:#000;background:#fff; margin-bottom:10px;}
+table th {background-color:#E5E5E5; border:1px solid #BBBBBB; padding:3px 6px; font-weight:normal; color:#000;}
+table tr td {border:1px solid #DDDDDD; padding:5px 6px;}
+table tr.alt td {background-color:#E2E2E2;}
+table tr:hover {background-color:#F0F0F0; color:#000;}
